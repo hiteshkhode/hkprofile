@@ -8,6 +8,7 @@
 }
 
 body {
+  background-color: rgb(31, 31, 31);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -24,4 +25,36 @@ code {
 .customizedfont{
   font-family: 'Holligate Signature';
   font-size: 3em;
+}
+
+.custom-shape-divider-top-1643896737 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1643896737 svg {
+  position: relative;
+  display: block;
+  width: calc(293% + 1.3px);
+  height: 92px;
+}
+
+.custom-shape-divider-top-1643896737 .shape-fill {
+  fill: #000027E3;
+}
+
+.circleBase {
+  border-radius: 50%;
+  behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+
+.profileimg {
+  -webkit-mask-image: url(../svgs/blobb.svg);
+  mask-image: url(../svgs/blobb.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
 }
