@@ -1,0 +1,330 @@
+{
+	"awards": {
+		"heading": "Awards",
+		"visible": true
+	},
+	"certifications": {
+		"heading": "Certifications",
+		"items": [
+			{
+				"date": "2020-05-31",
+				"id": "d053f81f-1b1b-4520-90da-27a2982e0ff8",
+				"issuer": "The University of Tokyo and offered through Coursera",
+				"summary": "Understood Game theory and it's applications",
+				"title": "Game Theory"
+			},
+			{
+				"date": "",
+				"id": "cb4e4fb5-e670-478b-b02d-5434a5d53b77",
+				"issuer": "University of California San Diego and offered through Coursera",
+				"summary": "Knew about history of Iot gadgets and how we got where we are now.",
+				"title": "Internet of things"
+			},
+			{
+				"date": "2020-07-23",
+				"id": "122f0183-7362-4580-876e-a03c3f46f235",
+				"issuer": "University of California, Davis and offered through Coursera",
+				"summary": "Understood the basics of ranking model of google search engine.\nLearnt how to optimise ranking of a website.\n",
+				"title": "Introduction to Google SEO"
+			},
+			{
+				"date": "2020-05-30",
+				"id": "7601cc2b-22bd-4345-be28-12e421fa052f",
+				"issuer": " Johns Hopkins University and offered through Coursera",
+				"summary": "Was interested in gene mapping and algorithms for pattern identification in genome",
+				"title": "Genomic Technologies"
+			}
+		],
+		"visible": true
+	},
+	"hobbies": {
+		"heading": "Hobbies",
+		"items": [
+			{
+				"id": "e56f0fa5-7f6a-4904-9cae-b98cdcd696a7",
+				"name": "Hitchhiking"
+			},
+			{
+				"id": "d1c6bfbd-9a36-4b41-aad0-87d1af736487",
+				"name": "Aircraft spotting"
+			},
+			{
+				"id": "146e9e1a-87a7-4fa1-a9e5-912ace9a6da4",
+				"name": "Reading (Historical fiction)"
+			}
+		],
+		"visible": true
+	},
+	"languages": {
+		"heading": "Languages",
+		"items": [
+			{
+				"fluency": "Native",
+				"id": "5d1a4c12-1dc5-4861-8e5e-79039459d659",
+				"name": "Hindi"
+			},
+			{
+				"fluency": "Native",
+				"id": "f4134054-7d0a-4df5-955c-d3473cab83df",
+				"name": "Marathi"
+			},
+			{
+				"fluency": "Proficient",
+				"id": "15c99606-a9c5-45a0-ace8-9ac251b54c93",
+				"name": "English"
+			}
+		],
+		"visible": true
+	},
+	"metadata": {
+		"colors": {
+			"background": "#FFFFFF",
+			"primary": "#2196F3",
+			"text": "#444444"
+		},
+		"font": "Montserrat",
+		"fontSize": 9,
+		"language": "en",
+		"layout": {
+			"castform": [
+				[
+					"awards",
+					"certifications",
+					"languages",
+					"hobbies"
+				],
+				[
+					"objective",
+					"work",
+					"education",
+					"skills",
+					"projects",
+					"references"
+				]
+			],
+			"celebi": [
+				[
+					"awards",
+					"certifications",
+					"languages",
+					"hobbies"
+				],
+				[
+					"objective",
+					"work",
+					"education",
+					"skills",
+					"projects",
+					"references"
+				]
+			],
+			"gengar": [
+				[
+					"objective",
+					"skills"
+				],
+				[
+					"awards",
+					"certifications",
+					"languages",
+					"references",
+					"hobbies"
+				],
+				[
+					"work",
+					"education",
+					"projects"
+				]
+			],
+			"glalie": [
+				[
+					"awards",
+					"certifications",
+					"hobbies"
+				],
+				[
+					"objective",
+					"work",
+					"education",
+					"skills",
+					"projects",
+					"languages",
+					"references"
+				]
+			],
+			"onyx": [
+				[
+					"objective",
+					"work",
+					"education",
+					"projects"
+				],
+				[
+					"hobbies",
+					"languages",
+					"awards",
+					"certifications"
+				],
+				[
+					"skills",
+					"references"
+				]
+			],
+			"pikachu": [
+				[
+					"skills",
+					"languages",
+					"awards",
+					"hobbies",
+					"work"
+				],
+				[
+					"education",
+					"projects",
+					"references",
+					"certifications"
+				]
+			]
+		},
+		"template": "gengar"
+	},
+	"objective": {
+		"body": "Worked in web2 for the longest, now working my way up through the upcoming web3 and decentralized apps.",
+		"heading": "Web and Blockchain Developer",
+		"visible": true
+	},
+	"preview": "",
+	"profile": {
+		"email": "work@khodehitesh.email",
+		"firstName": "Hitesh",
+		"heading": "Software Developer",
+		"lastName": "Khode",
+		"website": "khodehitesh.live"
+	},
+	"projects": {
+		"heading": "Projects",
+		"items": [
+			{
+				"endDate": "2021-02-10",
+				"id": "1c670821-5f63-4c7d-8bdf-61d4d939ac85",
+				"link": "",
+				"startDate": "2021-01-31",
+				"summary": "Developed a ML model for content recommendation (movie, series, TV shows) based on \npreferance (as input) provided by the user.\nUsed **K-nearest ML algorithm** on \"Bag of words\" concept based on keywords related to content.\nUsed **HTML, CSS, Javascript** in the front end and **NodeJS** in the back end.",
+				"title": "Movie Recommendation Engine"
+			},
+			{
+				"endDate": "",
+				"id": "65a1869b-adf6-4d1b-b5df-4c1df6465930",
+				"link": "",
+				"startDate": "2021-08-20",
+				"summary": "Developed an application using **vanilla CSS, JS, HTML** in front end and **NodeJS** in back end, where user can play around and create a palette with variable number of colours which will be saved on a remote **MongoDB cluster**.",
+				"title": "Pablo's Palette"
+			},
+			{
+				"endDate": "",
+				"id": "5377769a-c9b7-433d-a5ba-de43e70b4cd7",
+				"link": "",
+				"startDate": "",
+				"summary": "Developed a site where one can create a polling base and post a question to ask for the votes of Participants.\nUsed **MERN** stack for the purpose.",
+				"title": "Polling site"
+			},
+			{
+				"endDate": "2021-12-31",
+				"id": "6b3ff113-3112-42e7-a103-d34392eededb",
+				"link": "",
+				"startDate": "2021-12-29",
+				"summary": "Deployed a **decentralised application** to perform inter-account transaction of ethers over **ropsten testnet**.\nBuilt **smart contracts** with ethereum's **solidity**.\nDeveloped front end GUI using **React, Tailwind, CSS**.\nUsed **nodejs** in the back end.",
+				"title": "Cryptrade"
+			}
+		],
+		"visible": true
+	},
+	"public": true,
+	"references": {
+		"heading": "References",
+		"visible": true
+	},
+	"skills": {
+		"heading": "Skills",
+		"items": [
+			{
+				"id": "5121bd35-e8c0-4096-a6c9-e7ff284a6710",
+				"level": "Expert",
+				"name": "C++"
+			},
+			{
+				"id": "7c533a08-c563-4703-aa6c-16d6ec7990ab",
+				"level": "Proficient",
+				"name": "Python"
+			},
+			{
+				"id": "44d434c8-9d2d-4e58-bde5-2e8613c0cc6c",
+				"level": "Expert",
+				"name": "Javascript"
+			},
+			{
+				"id": "31c2b221-5f84-4b19-9e7b-5201a8d0f96b",
+				"level": "Proficient",
+				"name": "Java"
+			},
+			{
+				"id": "f97b15d0-5538-4a0e-81f8-2923e1cdf0e7",
+				"level": "Expert",
+				"name": "Git"
+			},
+			{
+				"id": "d7238b4c-e447-42ad-a88f-e5e7c88bb5d0",
+				"level": "Competent",
+				"name": "ReactJS"
+			},
+			{
+				"id": "7e8bf68d-dfc3-4ade-a3eb-5aa7a8890297",
+				"level": "Competent",
+				"name": "SQL"
+			},
+			{
+				"id": "39854f2c-d5f2-459a-8068-50d5ebba9334",
+				"level": "Competent",
+				"name": "MongoDB"
+			},
+			{
+				"id": "c09c78dc-25fd-4662-905b-6f9471ff6186",
+				"level": "Proficient",
+				"name": "CSS"
+			},
+			{
+				"id": "23584ab9-e582-4b7f-9766-79c9ca88000a",
+				"level": "Competent",
+				"name": "Solidity"
+			}
+		],
+		"visible": true
+	},
+	"social": {
+		"heading": "Social Network",
+		"items": [
+			{
+				"id": "00256e9b-fea8-49fb-a416-fea11671b825",
+				"network": "Twitter",
+				"url": "https://twitter.com/KhodeHitesh",
+				"username": "khodehitesh"
+			}
+		],
+		"visible": true
+	},
+	"work": {
+		"heading": "Work Experience",
+		"items": [
+			{
+				"company": "Freudian Paradox",
+				"endDate": "",
+				"id": "6c2f7d51-4412-4485-8c4e-fc05d50f5fb8",
+				"position": "member",
+				"startDate": "2021-11-15",
+				"summary": "Freudian Paradox is a technical club at NIT Trichy, aimed towards the study of cognitive sciences and psychology. I'm in PR and mathematical modelling department of the club.\nWe also work towards LGBTQ+ community, practicing identity-affirming clinical social work to create an inclusive, safe space for all.",
+				"website": ""
+			}
+		],
+		"visible": true
+	}
+}
