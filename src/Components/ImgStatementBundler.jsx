@@ -3,10 +3,9 @@ import ProfileStatement from "./ProfileStatment";
 
 function ImgStatementBundler() {
     return (
-        <div className="img-statement-bundler pt-40 flex text-white items-center justify-center">
+        <div className="img-statement-bundler rounded-2xl mt-40 mx-40 flex items-center justify-center">
             <ProfileImage />
             <ProfileStatement />
-
         </div>
     )
 }

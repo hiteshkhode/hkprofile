@@ -4,6 +4,8 @@ import HeaderCurves from './Components/Headercurves.jsx'
 import ProfileImage from './Components/ProfileImage.jsx'
 import ProfileStatement from './Components/ProfileStatment'
 import ImgStatementBundler from './Components/ImgStatementBundler.jsx'
+import Signature from './Components/Signature'
+import GithubProfile from './Components/GithubProfile'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Header />
       {/* <HeaderCurves /> */}
       <ImgStatementBundler />
+      <Signature />
+      <GithubProfile />
     </div>
   )
 }

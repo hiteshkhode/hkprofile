@@ -7,8 +7,19 @@
   src: url(../fonts/holligate-signature-demo/Holligate-Signature-Demo.ttf)
 }
 
+@font-face {
+  font-family: 'robertson';
+  src: url(../fonts/robertson/Robertson-Alternate.ttf)
+}
+
+.customizedfont{
+  font-family: 'Holligate Signature';
+  font-size: 3em;
+}
+
 body {
-  background-color: rgb(31, 31, 31);
+  /* background-color: hsl(243, 100%, 10%); */
+  background-color: hsl(60, 56%, 97%);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -17,34 +28,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header{
+  background-color:hsl(243, 100%, 15%);
+  /* box-shadow: rgb(0, 0, 29) 0px 20px 30px -10px; */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
 }
 
-.customizedfont{
-  font-family: 'Holligate Signature';
-  font-size: 3em;
+.optionsdiv{
+  background-color:hsl(255, 100%, 23%);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-.custom-shape-divider-top-1643896737 {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-top-1643896737 svg {
-  position: relative;
-  display: block;
-  width: calc(293% + 1.3px);
-  height: 92px;
-}
-
-.custom-shape-divider-top-1643896737 .shape-fill {
-  fill: #000027E3;
+.signature{
+  color: hsl(243, 100%, 15%);
+  font-family: "robertson";
+  font-size: 2em;
 }
 
 .circleBase {
@@ -57,4 +56,8 @@ code {
   mask-image: url(../svgs/blobb.svg);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+}
+
+.profile-statement{
+  color: hsl(243, 100%, 15%);
 }
