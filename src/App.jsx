@@ -9,7 +9,7 @@ import GithubProfile from './Components/GithubProfile'
 
 function App() {
   return (
-    <div>
+    <div className='flex flex-col'>
       <Header />
       {/* <HeaderCurves /> */}
       <ImgStatementBundler />
