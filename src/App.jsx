@@ -1,4 +1,6 @@
 import './App.css'
+// import './githubprofile.css'
+import './animate.css'
 import Header from './Components/Header.jsx'
 import HeaderCurves from './Components/Headercurves.jsx'
 import ProfileImage from './Components/ProfileImage.jsx'
@@ -14,7 +16,7 @@ function App() {
       <Header />
       {/* <HeaderCurves /> */}
       <ImgStatementBundler />
-      <Signature />
+      {/* <Signature /> */}
       <GithubProfile />
       <Footer />
     </div>

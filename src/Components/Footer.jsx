@@ -19,19 +19,10 @@ return(
                 </div>
             </div>
         </div>
-        <div className="grassfloor flex h-40 mt-10">
-            <img src="../../png/grassoutline.png" alt="" />
-            <img src="../../png/grassoutline.png" alt="" />
-            <img src="../../png/grassoutline.png" alt="" />
-            <img src="../../png/grassoutline.png" alt="" />
-            <img src="../../png/grassoutline.png" alt="" />
-            <img src="../../png/grassoutline.png" alt="" />
-            <img src="../../png/grassoutline.png" alt="" />
-            <img src="../../png/grassoutline.png" alt="" />
-            <img src="../../png/grassoutline.png" alt="" />
-            <img src="../../png/grassoutline.png" alt="" />
-            <img src="../../png/grassoutline.png" alt="" />
-            <img src="../../png/grassoutline.png" alt="" />
+        <div className="grassfloor flex mr-auto ml-auto">
+            <img src="../../png/grassoutline.png" className="w-20" alt="" />
+            <img src="../../png/grassoutline.png" className="w-20" alt="" />
+            <img src="../../png/grassoutline.png" className="w-20" alt="" />
         </div>
     </div>
     )}
