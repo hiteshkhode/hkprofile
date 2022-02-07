@@ -6,6 +6,7 @@ import ProfileStatement from './Components/ProfileStatment'
 import ImgStatementBundler from './Components/ImgStatementBundler.jsx'
 import Signature from './Components/Signature'
 import GithubProfile from './Components/GithubProfile'
+import Footer from './Components/Footer.jsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ImgStatementBundler />
       <Signature />
       <GithubProfile />
+      <Footer />
     </div>
   )
 }

@@ -9,7 +9,7 @@ class Statement extends Component{
     }
 
     typeTheName(){
-        let nametotype = "Hitesh";
+        let nametotype = "Namaste";
         setTimeout(() => {
             for(let i=0; i<nametotype.length; i++){
                 // setTimeout to wait for the time of typing
@@ -38,12 +38,10 @@ class Statement extends Component{
             <div className="profile-statement rounded-2xl">
                 <div className="p-20">
                     <div className="border-b-2 text-7xl" onLoad={() => {this.typeTheName()} }>
-                        {this.state.typedname}<span className="text-red-500">.</span>
+                        {this.state.typedname}<span className="text-red-500">!</span>
                     </div>
-                    <div className="py-10 text-2xl">
-                        Worked in web2 as a full stack developer for the longest <span className="text-blue-500 text-3xl">,</span> 
-                        <br /> 
-                        now working my way up through web3 and blockchain based dapps<span className="text-green-500 text-3xl">.</span>
+                    <div className="py-5 text-2xl">
+                    Let's catchup over coffee and talk about tech<span className="text-blue-500">.</span> 
                     </div>
                 </div>
             </div>
