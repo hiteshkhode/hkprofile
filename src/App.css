@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 
 .App {
@@ -60,4 +60,10 @@ button {
 
 .project > * {  
   padding: 2rem;
+}
+
+.coffeeImage{
+  margin-top: 2rem;
+  width: 2rem;
+  height: 2rem;
 }

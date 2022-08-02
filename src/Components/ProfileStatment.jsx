@@ -1,6 +1,6 @@
 function ProfileStatement() {
     return (
-        <div className="profile-statement rounded-2xl">
+        <div className="profile-statement rounded-2xl" id="profileStatement">
             <div className="p-20">
                 <div className="border-b-2 text-7xl">
                     Hitesh<span className="text-red-500">.</span>

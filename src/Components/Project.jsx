@@ -4,9 +4,9 @@ import projects from './versatileFiles/projects';
 function project(props) {
     let count = 0;
     return (
-        <div className="project w-1/2 flex justify-center">
-            <div className='w-128 h-128 flex justify-center'>
-                <svg     src={"../../png/" + props.project + ".svg"} alt="" />
+        <div className="project w-1/2 flex items-center justify-center">
+            <div className='w-fit h-fit flex justify-center'>
+                <img className='h-20px w-20px' src={"../../png/" + props.project + ".png"} alt="" />
             </div>
             <div>
                 <div className="projecttitle">
@@ -16,7 +16,7 @@ function project(props) {
                     <div className="projectdescriptiontext text-xl">{props.description} </div>
                 </div>
                 <div className="projectlinks">
-                    <div className="projectlink">{props.links} </div>
+                    <a className="projectlink" href={props.links} target="_blank">{props.links} </a>
                 </div>
             </div>
         </div>

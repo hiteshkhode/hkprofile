@@ -40,6 +40,11 @@ class Statement extends Component{
                     <div className="border-b-2 text-7xl" onLoad={() => {this.typeTheName()} }>
                         {this.state.typedname}<span className="text-red-500">!</span>
                     </div>
+                    <div className='flex items-center justify-center'>
+                        <img className="coffeeImage h-1/2" src="../png/coffee.png" alt="" />
+                        <img className="coffeeImage h-1/2" src="../png/question.png" alt="" />
+
+                    </div>
                     <div className="py-5 text-2xl">
                     Let's catchup over coffee and talk about tech<span className="text-blue-500">.</span> 
                     </div>

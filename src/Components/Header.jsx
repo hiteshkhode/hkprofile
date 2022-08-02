@@ -2,7 +2,13 @@ function Header(){
     return (
         <div className="header flex py-10">
             <div className="signaturediv grow">
-                <div className="ml-10 customizedfont text-white">Hitesh Khode</div>
+                <a href="#profileStatement"><div className="ml-10 customizedfont text-white" onClick={() => {window. scroll({
+                                                top: 0,
+                                                left: 0,
+                                                behavior: 'smooth'
+                                                })}}>Hitesh Khode
+                                            </div>
+                </a>    
             </div>
             <div className="optionsdiv grow flex mx-20">
                 <div className="grow headeroptions mx-5 rounded-full items-center justify-center flex text-white "><a href="#projects">Projects</a></div>
