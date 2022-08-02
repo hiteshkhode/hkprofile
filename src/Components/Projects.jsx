@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Project from './Project';
-import projectsJSON from './versatileFiles/Projects';
+import projectsJSON from './versatileFiles/projects.js';
 
 function projects() {
     let count = 0;

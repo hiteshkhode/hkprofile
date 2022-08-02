@@ -42,7 +42,7 @@ class Statement extends Component{
                     </div>
                     <div className='flex items-center justify-center'>
                         <img className="coffeeImage h-1/2" src="../png/coffee.png" alt="" />
-                        <img className="coffeeImage h-1/2" src="../png/question.png" alt="" />
+                        <img className="coffeeImage h-1/2" src="../png/question-mark.png" alt="" />
 
                     </div>
                     <div className="py-5 text-2xl">
