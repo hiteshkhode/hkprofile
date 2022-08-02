@@ -41,8 +41,8 @@ class Statement extends Component{
                         {this.state.typedname}<span className="text-red-500">!</span>
                     </div>
                     <div className='flex items-center justify-center'>
-                        <img className="coffeeImage h-1/2" src="../png/coffee.png" alt="" />
-                        <img className="coffeeImage h-1/2" src="../png/question-mark.png" alt="" />
+                        <img className="coffeeImage h-1/2" src="/png/coffee.png" alt="" />
+                        <img className="coffeeImage h-1/2" src="/png/question-mark.png" alt="" />
 
                     </div>
                     <div className="py-5 text-2xl">

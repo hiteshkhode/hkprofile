@@ -11,7 +11,7 @@ function ImgStatementBundler() {
                 <Statementclass />
             </div>
             <div className="w-1/2">
-                <img src="../png/divider.png" alt="" />
+                <img src="/png/divider.png" alt="" />
             </div>
         </div>
     )

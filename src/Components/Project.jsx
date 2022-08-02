@@ -6,7 +6,7 @@ function project(props) {
     return (
         <div className="project w-1/2 flex items-center justify-center">
             <div className='w-fit h-fit flex justify-center'>
-                <img className='h-20px w-20px' src={"../../png/" + props.project + ".png"} alt="" />
+                <img className='h-20px w-20px' src={"/png/" + props.project + ".png"} alt="" />
             </div>
             <div>
                 <div className="projecttitle">
