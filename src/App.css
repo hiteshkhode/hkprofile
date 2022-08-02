@@ -45,3 +45,19 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.project{
+  display: flex;
+}
+
+.project > * {  
+  padding: 2rem;
+}

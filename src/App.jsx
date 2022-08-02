@@ -1,5 +1,5 @@
 import './App.css'
-// import './githubprofile.css'
+import './githubprofile.css'
 import './animate.css'
 import Header from './Components/Header.jsx'
 import HeaderCurves from './Components/Headercurves.jsx'
@@ -8,6 +8,7 @@ import ProfileStatement from './Components/ProfileStatment'
 import ImgStatementBundler from './Components/ImgStatementBundler.jsx'
 import Signature from './Components/Signature'
 import GithubProfile from './Components/GithubProfile'
+import Projects from './Components/Projects.jsx'
 import Footer from './Components/Footer.jsx'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <ImgStatementBundler />
       {/* <Signature /> */}
       <GithubProfile />
+      <Projects />
       <Footer />
     </div>
   )
