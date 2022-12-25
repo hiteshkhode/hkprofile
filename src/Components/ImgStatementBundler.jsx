@@ -10,7 +10,7 @@ function ImgStatementBundler() {
             <div className="img-statement-bundler rounded-2xl mt-40 mx-40 flex items-center justify-center">
                 <ProfileImage />
                 <Statementclass />
-                <div className="twitter">
+                {/* <div className="twitter">
                     <Timeline
                         dataSource={{
                             sourceType: 'profile',
@@ -20,7 +20,7 @@ function ImgStatementBundler() {
                             height: '400'
                         }}
                     />
-                </div>
+                </div> */}
             </div>
             <div className="w-1/2">
                 <img src="/png/divider.png" alt="" />
