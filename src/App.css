@@ -56,10 +56,15 @@ button {
 
 .project{
   display: flex;
+  align-items: center;
 }
 
 .project > * {  
   padding: 2rem;
+}
+
+.imageContainer{
+  height: fit-content;
 }
 
 .coffeeImage{

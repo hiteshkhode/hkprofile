@@ -4,11 +4,11 @@ import projects from './versatileFiles/projects';
 function project(props) {
     let count = 0;
     return (
-        <div className="project w-1/2 flex items-center justify-center">
-            <div className='w-fit h-fit flex justify-center'>
-                <img className='h-20px w-20px' src={"/png/" + props.project + ".png"} alt="" />
+        <div className="project w-1/2 flex">
+            <div className='imageContainer w-1/5 flex justify-center'>
+                <img className='projectImage' src={"/png/" + props.project + ".png"} alt="" />
             </div>
-            <div>
+            <div className='projectDescription w-4/5'>
                 <div className="projecttitle">
                     <div className="projecttitletext text-3xl"> {props.title}</div>
                 </div>
